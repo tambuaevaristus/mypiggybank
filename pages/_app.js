@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import { useEffect } from 'react';
+import 'font-awesome/css/font-awesome.min.css';
 
 function MyApp({ Component, pageProps }) {
 useEffect(()=>{
