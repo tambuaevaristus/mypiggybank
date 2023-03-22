@@ -9,77 +9,14 @@ export default function Banner() {
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
-          <div class="carousel-item carousel-item1 active">
+        
+          <div class="carousel-item carousel-item2 active">
             <div className="d-flex justify-content-center h-100 align-items-center">
               <div className="text-white text-center">
-                <h1 className="mb-3">Silicon Mountain Conference</h1>
-                <h5 className="mb-4">Code Battle</h5>
-                <a
-                  className="btn btn-outline-light btn-lg m-2"
-                  href="https://www.youtube.com/watch?v=c9B4TPnak1A"
-                  role="button"
-                  rel="nofollow"
-                  target="_blank"
-                >
-                  Start tutorial
-                </a>
-                <a
-                  className="btn btn-outline-light btn-lg m-2"
-                  href="https://mdbootstrap.com/docs/standard/"
-                  target="_blank"
-                  role="button"
-                >
-                  Download MDB UI KIT
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item carousel-item2">
-            <div className="d-flex justify-content-center h-100 align-items-center">
-              <div className="text-white text-center">
-                <h1 className="mb-3">Silicon Mountain Conference</h1>
-                <h5 className="mb-4">Code Battle</h5>
-                <a
-                  className="btn btn-outline-light btn-lg m-2"
-                  href="https://www.youtube.com/watch?v=c9B4TPnak1A"
-                  role="button"
-                  rel="nofollow"
-                  target="_blank"
-                >
-                  Start tutorial
-                </a>
-                <a
-                  className="btn btn-outline-light btn-lg m-2"
-                  href="https://mdbootstrap.com/docs/standard/"
-                  target="_blank"
-                  role="button"
-                >
-                  Download MDB UI KIT
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item carousel-item3">
-            <div className="d-flex justify-content-center h-100 align-items-center">
-              <div className="text-white text-center">
-                <h1 className="mb-3">Silicon Mountain Conference</h1>
-                <h5 className="mb-4">Code Battle</h5>
-                <a
-                  className="btn btn-outline-light btn-lg m-2"
-                  href="https://www.youtube.com/watch?v=c9B4TPnak1A"
-                  role="button"
-                  rel="nofollow"
-                  target="_blank"
-                >
-                  Start tutorial
-                </a>
-                <a
-                  className="btn btn-outline-light btn-lg m-2"
-                  href="https://mdbootstrap.com/docs/standard/"
-                  target="_blank"
-                  role="button"
-                >
-                  Download MDB UI KIT
+                <h1 className="mb-3 display-1 fw-bolder">Transfer Money Any Where <br/> Any Time</h1>
+                <h5 className="mb-4">Fast Reliable and easy money transfer Any where in the world</h5>
+                <a className="btn btn-outline-light btn-lg m-2" href="#register">
+                  Register Now
                 </a>
               </div>
             </div>

@@ -7,7 +7,7 @@ export default function Card() {
 <div class="card card-cascade narrower">
 
   <div class="view view-cascade overlay">
-    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).webp"
+    <img class="card-img-top" src="https://images.pexels.com/photos/462867/pexels-photo-462867.jpeg?auto=compress&cs=tinysrgb&w=600"
       alt="Card image cap"/>
     <a>
       <div class="mask rgba-white-slight"></div>

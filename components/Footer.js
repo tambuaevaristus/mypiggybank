@@ -34,26 +34,20 @@ export default function Footer() {
       <div class="row mt-3">
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Team Iknite
+            <i class="fas fa-gem me-3"></i>CarryMe
           </h6>
-          <p>Team iknite Lorem Team iknite LoremTeam iknite LoremTeam iknite LoremTeam iknite 
-          </p>
+          <p>MOMO Me is an easy to use finantial software</p>
+          <a className="btn btn-outline-dark btn-lg m-2 ">
+                  Download App
+                </a>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 class="text-uppercase fw-bold mb-4">
             Products
           </h6>
+         
           <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">Hire</a>
           </p>
         </div>
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -89,7 +83,7 @@ export default function Footer() {
 
   <div class="text-center p-4" >
     © 2021 Copyright:
-    <a class="text-reset fw-bold" href="">Design By Tambua Evaristus</a>
+    <a class="text-reset fw-bold" href="">Design By Team Iknite</a>
   </div>
 </footer>
     </div>
