@@ -15,7 +15,7 @@ function About() {
                 forms of finance for businesses and consumers alike
               </p>
               <a className="btn btn-outline-light" href="#services">
-                Check our partners
+                Check our partners i system
               </a>
             </div>
           </div>
