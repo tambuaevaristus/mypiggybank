@@ -11,7 +11,7 @@ function About() {
               <hr className="divider" />
               <p className="text-white-75 mb-4">
                E Pay is a catch-all term referring to software, mobile applications, and
-                other technologies created to improve and automate traditional
+                other to improve and automate traditional
                 forms of finance for businesses and consumers alike
               </p>
               <a className="btn btn-outline-light" href="#services">
