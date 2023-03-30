@@ -32,13 +32,13 @@ export default function Register() {
                     </div>
                   </div>
 
-                  <div className="d-flex flex-row align-items-center mb-4">
+                  {/* <div className="d-flex flex-row align-items-center mb-4">
                     <i className="fas fa-lock fa-lg me-3 fa-fw"></i>
                     <div className="form-outline flex-fill mb-0">
                       <input type="password" id="form3Example4c" className="form-control" />
                       <label className="form-label" for="form3Example4c">Password</label>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="d-flex flex-row align-items-center mb-4">
                     <i className="fas fa-key fa-lg me-3 fa-fw"></i>
