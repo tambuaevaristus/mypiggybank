@@ -15,10 +15,12 @@ export default function budget() {
       <div className="p-4">
 
         {
-          income==0 ? <Income /> :<Budget /> 
+          !income ? <Income /> :<Budget /> 
 
         }
-        {/* */}
+
+
+        {/* <Budget /> */}
         <BudgetList />
       </div>
     </div>

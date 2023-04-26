@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  income: 0,
-  budget: 0,
+  income: null,
+  budgetList:[],
   expense: 0,
 };
 
@@ -12,10 +12,12 @@ export const budgetSlice = createSlice({
   reducers: {
     setIncome: (state, action) => {
       state.income = action.payload;
+
     },
     setBudget: (state, action) => {
-      state.value -= 1;
+      state.budgetList.push(action.payload);
     },
+
     setExpense: (state, action) => {
       state.value += action.payload;
     },
