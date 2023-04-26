@@ -31,15 +31,7 @@ export default function Navbar() {
         <li class="nav-item">
         <a class="nav-link mx-2 text-uppercase" href="#">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link mx-2 text-uppercase" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-2 text-uppercase" href="#">Partner </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-2 text-uppercase" href="#">Contact</a>
-        </li>
+      
         <li class="nav-item">
           <a class="nav-link mx-2 text-uppercase btn btn-outline-warning btn-Warning" href="#">SignIn</a>
         </li>

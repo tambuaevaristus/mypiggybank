@@ -1,11 +1,15 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 export default function Budget() {
+
+    const income = useSelector((state) => state.budget.income);
+
   return (
     <div>
       <div className="shadow-none p-4 my-3 mb-5 bg-light rounded ">
         <h1 className="fw-bolder text-center fs-1">Set Budget</h1>
-        <h4 className="fw-bold text-secondary text-center">Available: 500000frs</h4>
+        <h4 className="fw-bold text-secondary text-center">Available: {income}frs</h4>
 
         <div class="form-outline my-5">
           <label>Category</label>
