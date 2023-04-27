@@ -13,15 +13,9 @@ export default function budget() {
     <div className="">
       <Navbar />
       <div className="p-4">
-
-        {
-          !income ? <Income /> :<Budget /> 
-
-        }
-
+        {!income ? <Income /> : <Budget />}
 
         {/* <Budget /> */}
-        <BudgetList />
       </div>
     </div>
   );

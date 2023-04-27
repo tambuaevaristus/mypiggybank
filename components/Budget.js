@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setBudget, setIncome } from "../slice/budgetSlice";
+import Link from "next/link";
+import { Router, useRouter } from "next/router";
 
 export default function Budget() {
   const [category, setCategory] = useState("");
@@ -10,6 +12,7 @@ export default function Budget() {
   const dispatch = useDispatch();
   const newIncome = income - amount;
   const addBudget = () => {
+    // const router = useRouter()
   if(income-amount>=0){
     dispatch(
       setBudget({
@@ -19,6 +22,7 @@ export default function Budget() {
     );
 
     dispatch(setIncome(newIncome));
+    // router.push('/budgetlist')
   }else{
     alert("Budget is out of range")
   }
@@ -54,10 +58,16 @@ export default function Budget() {
             type="button"
             onClick={addBudget}
             class="btn btn-secondary btn-md btn-block my-4"
+            href="/budgetList"
           >
             Record Budget
           </button>
+
+
         </div>
+
+
+        <Link className="" href="/budgetlist">View Budgets</Link>
       </div>
     </div>
   );
