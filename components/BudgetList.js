@@ -21,7 +21,9 @@ export default function BudgetList() {
       <h1 className="fw-bolder text-center fs-1">Budget List</h1>
 
       {budgetArr.map((item) => (
-        <BudgetItem category={item.category} amount={item.amount} />
+        <Link href={{ pathname: "expense/" + item.id, query: item }}>
+          <BudgetItem category={item.category} amount={item.amount} />
+        </Link>
       ))}
     </div>
   );

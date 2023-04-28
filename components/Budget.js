@@ -11,21 +11,24 @@ export default function Budget() {
   const income = useSelector((state) => state.budget.income);
   const dispatch = useDispatch();
   const newIncome = income - amount;
+  const id = Math.random().toString(36).slice(2, 7);
+
   const addBudget = () => {
     // const router = useRouter()
-  if(income-amount>=0){
-    dispatch(
-      setBudget({
-        category,
-        amount,
-      })
-    );
 
-    dispatch(setIncome(newIncome));
-    // router.push('/budgetlist')
-  }else{
-    alert("Budget is out of range")
-  }
+    if (income - amount >= 0) {
+      dispatch(
+        setBudget({
+          id,
+          category,
+          amount,
+        })
+      );
+
+      dispatch(setIncome(newIncome));
+    } else {
+      alert("Budget is out of range");
+    }
   };
   return (
     <div>
@@ -62,12 +65,11 @@ export default function Budget() {
           >
             Record Budget
           </button>
-
-
         </div>
 
-
-        <Link className="" href="/budgetlist">View Budgets</Link>
+        <Link className="" href="/budgetlist">
+          View Budgets
+        </Link>
       </div>
     </div>
   );
