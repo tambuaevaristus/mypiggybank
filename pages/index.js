@@ -27,7 +27,7 @@ export default function Home() {
         </Link>{" "}
         <Link href="/tips" className="text-decoration-none">
           <div className="shadow-none p-4 my-3 mb-5 bg-light rounded fw-bolder text-center fs-1">
-            Serving Tips
+            Saving Tips
           </div>
         </Link>
       </div>
