@@ -8,7 +8,7 @@ export default function tips() {
       <div class="d-flex">
         <div class="overflow-auto">
           <Tips
-            title="Spending Wisely"
+            title="Know the Importance of Saving"
             description="The secret to spending wisely is to have much mouchh money , the things are bad eeeh..."
             image="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
           />
