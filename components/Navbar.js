@@ -40,7 +40,7 @@ export default function Navbar() {
                 <Link
                   class="nav-link mx-2 text-uppercase"
                   aria-current="page"
-                  href="#"
+                  href="/budget"
                 >
                   Budget
                 </Link>
