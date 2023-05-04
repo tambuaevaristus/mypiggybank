@@ -50,12 +50,12 @@ export default function tips() {
             description="If you have outstanding debts, prioritize paying them off before making any unnecessary purchases."
             image="https://www.debt.com/wp-content/uploads/2022/10/Pay-Off-Debt-with-a-Personal-Loan.jpg"
           />
-          <Tips
+          {/* <Tips
             title="Invest in experiences"
             description="Consider investing your money in experiences rather than material possessions. Memories last longer than things!"
             image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZSMMeLDwfOUn_G7xOD4EO-K7YXYP-xMbcEWvp_EHZsA0s5Rr4JZZ_o2YYRbp3i537Ig&usqp=CAU"
 
-          />
+          /> */}
           <Tips
             title="Cut down on eating out:"
             description="Eating out can be expensive, so try to cut back and cook more meals at home. You can save a lot of money by cooking your own meals.
