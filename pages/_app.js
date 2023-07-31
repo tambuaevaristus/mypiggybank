@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import "font-awesome/css/font-awesome.min.css";
 import { store } from "/store";
 import { Provider } from "react-redux";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -27,10 +28,14 @@ function MyApp({ Component, pageProps }) {
       $(this).addClass("active-link");
     });
   }, []);
+
+  const queryClient = new QueryClient();
   return (
-    <Provider store={store}>
-      <Component {...pageProps} />
-    </Provider>
+    <QueryClientProvider client={queryClient}>
+      <Provider store={store}>
+        <Component {...pageProps} />
+      </Provider>
+    </QueryClientProvider>
   );
 }
 

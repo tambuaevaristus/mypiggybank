@@ -1,0 +1,60 @@
+{
+    "budjects":[
+        {
+            "id": 1,
+            "title": "Creating a Monthly Budget",
+            "description": "Start by tracking your expenses for a month. Categorize your spending and identify areas where you can cut back. Set realistic goals for each category and stick to them."
+          },
+          {
+            "id": 2,
+            "title": "Using Envelopes to Budget",
+            "description": "Label envelopes with different spending categories such as groceries, entertainment, and transportation. Put the allotted cash for each category in its respective envelope. Once the money is gone, you can't spend any more in that category until the next budget period."
+          },
+          {
+            "id": 3,
+            "title": "The 50/30/20 Rule",
+            "description": "Allocate 50% of your income to necessities such as rent, utilities, and food. Use 30% for discretionary spending such as entertainment and eating out. Save or invest the remaining 20%."
+          },
+          {
+            "id": 4,
+            "title": "The Zero-Based Budget",
+            "description": "Assign every dollar of your income to a specific category such as bills, savings, or debt repayment. Make sure your income minus expenses equals zero. This ensures that every dollar has a purpose and helps you avoid overspending."
+          },
+          {
+            "id": 5,
+            "title": "The Envelope System with a Twist",
+            "description": "Use the envelope system but instead of cash, use prepaid debit cards for each category. This allows you to track your spending electronically while still having the discipline of limited funds for each category."
+          },
+          {
+            "id": 6,
+            "title": "Budgeting with a Partner",
+            "description": "Sit down with your partner and create a joint budget. Assign responsibilities for paying bills and tracking spending. Make sure to communicate openly about any concerns or changes to the budget."
+          },
+          {
+            "id": 7,
+            "title": "Automating Your Savings",
+            "description": "Set up automatic transfers from your checking account to your savings account. This ensures that you save money before you have a chance to spend it."
+          },
+          {
+            "id": 8,
+            "title": "Using Budgeting Apps",
+            "description": "There are many free budgeting apps available that can help you track your spending, create a budget, and set financial goals. Some popular ones include Mint, PocketGuard, and YNAB (You Need a Budget)."
+          },
+          {
+            "id": 9,
+            "title": "The Pay Yourself First Method",
+            "description": "Allocate a percentage of your income to savings before paying any bills or expenses. This ensures that you prioritize saving and investing for your future."
+          },
+          {
+            "id": 10,
+            "title": "The Cash-Only Budget",
+            "description": "Withdraw cash for your budgeted categories and use only that cash for spending. This helps you avoid overspending and keeps you accountable to your budget."
+          },
+          {
+            "id": 11,
+            "title": "The Cash-Only",
+            "description": "Withdraw cash for your budgeted categories and use only that cash for spending. This helps you avoid overspending and keeps you accountable to your budget."
+          }
+
+    ]
+}
