@@ -5,6 +5,7 @@ import "font-awesome/css/font-awesome.min.css";
 import { store } from "/store";
 import { Provider } from "react-redux";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -35,6 +36,8 @@ function MyApp({ Component, pageProps }) {
       <Provider store={store}>
         <Component {...pageProps} />
       </Provider>
+      <ReactQueryDevtools initialIsOpen={false} />
+
     </QueryClientProvider>
   );
 }

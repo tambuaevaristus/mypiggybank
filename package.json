@@ -13,6 +13,7 @@
     "@popperjs/core": "^2.11.7",
     "@reduxjs/toolkit": "^1.8.5",
     "@tanstack/react-query": "^4.32.0",
+    "@tanstack/react-query-devtools": "^4.32.0",
     "bootstrap": "^5.2.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.1",
